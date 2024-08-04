@@ -1,0 +1,24 @@
+{
+	"name": "@oliverjam/hypa",
+	"version": "1.3.0",
+	"main": "./src/main.js",
+	"files": [
+		"/src"
+	],
+	"exports": {
+		".": {
+			"default": "./src/main.js",
+			"types": "./src/main.d.ts"
+		},
+		"./jsx-runtime": "./src/jsx-runtime.js",
+		"./jsx-dev-runtime": "./src/jsx-runtime.js"
+	},
+	"devDependencies": {
+		"bun-types": "^1.1.14",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"urlpattern-polyfill": "^10.0.0"
+	},
+	"scripts": {}
+}
